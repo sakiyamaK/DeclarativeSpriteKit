@@ -68,6 +68,27 @@ class GameScene: DeclarativeScene {
 }
 ```
 
+```swift
+import SwiftUI
+import SpriteKit
+
+struct ContentView: View {
+    var body: some View {
+        GeometryReader { geometry in
+            SpriteView(
+                scene: GameScene(size: geometry.size).apply({ scene in
+                    scene.scaleMode = .aspectFill
+                }),
+                options: [.ignoresSiblingOrder]
+            )
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .ignoresSafeArea()
+            .statusBarHidden(true)
+        }
+    }
+}
+```
+
 * [Installation](#installation)
   * [Swift Package Manager](#swift-package-manager)
 
