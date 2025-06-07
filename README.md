@@ -71,6 +71,7 @@ class GameScene: DeclarativeScene {
 ```swift
 import SwiftUI
 import SpriteKit
+import DeclarativeSpriteKit
 
 struct ContentView: View {
     var body: some View {
@@ -100,12 +101,12 @@ Once you have your Swift package set up, adding DeclarativeUIKit as a dependency
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/sakiyamaK/DeclarativeUIKit", .upToNextMajor(from: "0.2"))
+    .package(url: "https://github.com/sakiyamaK/DeclarativeSpriteKit", .upToNextMajor(from: "0.1"))
 ]
 ```
 
 To install DeclarativeUIKit package via Xcode
 
 Go to File -> Swift Packages -> Add Package Dependency...
-Then search for https://github.com/sakiyamaK/DeclarativeUIKit
+Then search for https://github.com/sakiyamaK/DeclarativeSpriteKit
 And choose the version you want

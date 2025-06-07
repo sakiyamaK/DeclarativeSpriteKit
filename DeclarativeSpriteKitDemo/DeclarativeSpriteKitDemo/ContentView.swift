@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SpriteKit
+import DeclarativeSpriteKit
 
 struct ContentView: View {
     var body: some View {

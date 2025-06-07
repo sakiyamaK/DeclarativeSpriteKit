@@ -18,4 +18,3 @@ extension Applyable {
 }
 
 extension SKNode: Applyable {}
-extension SKEffectNode: Applyable {}
