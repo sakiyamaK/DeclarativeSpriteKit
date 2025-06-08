@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B6404CD82DF3D45000BC1BA5 /* DeclarativeSpriteKit in Frameworks */ = {isa = PBXBuildFile; productRef = B6404CD72DF3D45000BC1BA5 /* DeclarativeSpriteKit */; };
-		B6404DA32DF3DA3B00BC1BA5 /* DeclarativeSpriteKit in Frameworks */ = {isa = PBXBuildFile; productRef = B6404DA22DF3DA3B00BC1BA5 /* DeclarativeSpriteKit */; };
+		B6BD47242DF46FB9009FE108 /* DeclarativeSpriteKit in Frameworks */ = {isa = PBXBuildFile; productRef = B6BD47232DF46FB9009FE108 /* DeclarativeSpriteKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6404CD82DF3D45000BC1BA5 /* DeclarativeSpriteKit in Frameworks */,
-				B6404DA32DF3DA3B00BC1BA5 /* DeclarativeSpriteKit in Frameworks */,
+				B6BD47242DF46FB9009FE108 /* DeclarativeSpriteKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,8 +70,7 @@
 			);
 			name = DeclarativeSpriteKitDemo;
 			packageProductDependencies = (
-				B6404CD72DF3D45000BC1BA5 /* DeclarativeSpriteKit */,
-				B6404DA22DF3DA3B00BC1BA5 /* DeclarativeSpriteKit */,
+				B6BD47232DF46FB9009FE108 /* DeclarativeSpriteKit */,
 			);
 			productName = DeclarativeSpriteKitDemo;
 			productReference = B6404CC42DF3D43800BC1BA5 /* DeclarativeSpriteKitDemo.app */;
@@ -104,7 +101,7 @@
 			mainGroup = B6404CBB2DF3D43800BC1BA5;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				B6404DA12DF3DA3B00BC1BA5 /* XCLocalSwiftPackageReference "../../DeclarativeSpriteKit" */,
+				B6BD47222DF46FB9009FE108 /* XCLocalSwiftPackageReference "../../DeclarativeSpriteKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B6404CC52DF3D43800BC1BA5 /* Products */;
@@ -351,18 +348,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		B6404DA12DF3DA3B00BC1BA5 /* XCLocalSwiftPackageReference "../../DeclarativeSpriteKit" */ = {
+		B6BD47222DF46FB9009FE108 /* XCLocalSwiftPackageReference "../../DeclarativeSpriteKit" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ../../DeclarativeSpriteKit;
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B6404CD72DF3D45000BC1BA5 /* DeclarativeSpriteKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = DeclarativeSpriteKit;
-		};
-		B6404DA22DF3DA3B00BC1BA5 /* DeclarativeSpriteKit */ = {
+		B6BD47232DF46FB9009FE108 /* DeclarativeSpriteKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = DeclarativeSpriteKit;
 		};

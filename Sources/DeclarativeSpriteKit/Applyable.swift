@@ -18,3 +18,4 @@ extension Applyable {
 }
 
 extension SKNode: Applyable {}
+extension SKPhysicsBody: Applyable {}
